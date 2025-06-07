@@ -12,18 +12,24 @@ int len;            // Số phần tử sẽ được sử dụng
 std::ifstream input("input.txt");
 std::ofstream output("output.txt");
 
-int step(){
+/* Chi nhỏ vấn đề */
+int stepOne(){
     return 1;
 }
 
+/* Giải quyết vấn đề ở hàm này */
+/// @brief:
+/// @return:  
 int solution(){
-    step();
-    step();
+    int ret = 1;
+    stepOne();
     output <<  1 << " " << 2 << " " << 3;
-    return 0;
+    return ret;
 }
+
 int main()
 {
+    /* Get input values from the input file */
     std::string line;
     
     std::getline(input, line);
@@ -38,6 +44,7 @@ int main()
         ss >> arr[i];
     }
 
+    /* Call solution */
     solution();
     
     return 0;
