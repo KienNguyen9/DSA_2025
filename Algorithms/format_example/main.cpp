@@ -24,6 +24,21 @@ int solution(){
 }
 int main()
 {
+    std::string line;
+    
+    std::getline(input, line);
+    k = std::stoi(line);
+    
+    std::getline(input, line);
+    n = std::stoi(line);
+
+    std::getline(input, line);
+    std::stringstream ss(line);
+    for(int i = 1; i <= n; i++){
+        ss >> arr[i];
+    }
+
+    solution();
     
     return 0;
 }
