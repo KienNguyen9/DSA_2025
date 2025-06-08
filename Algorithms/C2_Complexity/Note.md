@@ -26,9 +26,13 @@ Hàm bậc 2
 ![alt text](image-2.png)
 
 VD4: Độ phức tạp về thời gian theo kiểu hàm logarit
-x = b^y
-x là biến số
-b là cơ số
+
+- x = b^y
+- x là biến số
+- b là cơ số
+
+![alt text](image-3.png)
+
 
 
 
