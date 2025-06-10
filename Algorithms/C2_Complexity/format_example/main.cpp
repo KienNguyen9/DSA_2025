@@ -10,8 +10,11 @@ int main()
     x > 0;
 
     /* Complexity O(log n)
-     *
+    Bài toán sắp xếp theo cách tối ưu, tương đối khó
+    Ví dụ có một mảng, ...
+    
      */
+
      
 
     /* Complexity O(n) 
