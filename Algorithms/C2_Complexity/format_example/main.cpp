@@ -11,7 +11,8 @@ int main()
 
     /* Complexity O(log n)
     Bài toán sắp xếp theo cách tối ưu, tương đối khó
-    Ví dụ có một mảng, ...
+    Ví dụ có một mảng, 
+    arr = [1,5,,8,9,15,20,21,25,27,30,33,35,39,40]
     
      */
 
