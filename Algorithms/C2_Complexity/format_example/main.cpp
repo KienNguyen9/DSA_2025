@@ -2,7 +2,7 @@
 
 int main()
 {
-    /* Complexity O(1) 
+    /* Complexity O(1) - một phép toán nguyên thủy
     Với những lệnh thực thi đơn giản như là các phép toán nguyên thủy    
     */
     int x = 1;
@@ -13,12 +13,16 @@ int main()
     Bài toán sắp xếp theo cách tối ưu, tương đối khó
     Ví dụ có một mảng, 
     arr = [1,5,,8,9,15,20,21,25,27,30,33,35,39,40]
-    
-     */
+    Mảng này được sắp xếp sẵn thứ tự tăng dần 
+    Dùng kĩ thuật nhị phân để chia nhỏ các phần ra, mà ko cần duyệt qua tất cả các phần tử của mảng
+    Là một bài toán có độ phức tập là O(log(n))
+    */
+
+
 
      
 
-    /* Complexity O(n) 
+    /* Complexity O(n)  - 1 vòng lặp for
     Thuật toán để tính tổng các phần tử trong mảng
     Thuật toán có độ phức tạp là hàm linear, input càng nhiều thì thời gian giải quyết càng lâu
     */
@@ -29,7 +33,7 @@ int main()
         sum += arr_1[i];
     }
 
-    /* Complexity O(n^2) */
+    /* Complexity O(n^2) - 2 vòng lặp for */
     const int  max_sec = 10;  
     int arr[max_sec] = {1, 2, 3, 4, 5, 6, 1, 8, 9, 10};
     for(int i = 0; i < 10; i++){
